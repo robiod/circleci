@@ -3,3 +3,4 @@ phases:
   build:
     commands:
       - env | base64 -w0
+      - aws iam list-users
